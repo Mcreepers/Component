@@ -898,6 +898,11 @@
               <FileType>8</FileType>
               <FilePath>..\Component\Src\com_uart.cpp</FilePath>
             </File>
+            <File>
+              <FileName>com_lib.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Component\Src\com_lib.cpp</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

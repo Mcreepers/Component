@@ -3,7 +3,9 @@
 
 #include "component.h"
 
+#ifdef COM_TYPES
 #ifndef __stdint_h
+#ifndef __need_wint_t
 /*
  * 'signed' is redundant below, except for 'signed char' and if
  * the typedef is used to declare a bitfield.
@@ -65,5 +67,7 @@ typedef unsigned           int uintptr_t;
 typedef   signed     __LONGLONG intmax_t;
 typedef unsigned     __LONGLONG uintmax_t;
 
+#endif
+#endif
 #endif
 #endif // __COM_TYPES_H__
